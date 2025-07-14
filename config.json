@@ -1,0 +1,9 @@
+{
+  "ignoreGroups": true,
+  "autoReplyPrivate": false,
+  "ignoreUnsaved": false,
+  "autoDownloadMedia": true,
+  "pingPong": false,
+  "autoReadMessages": false,
+  "transcribeAudio": false
+}

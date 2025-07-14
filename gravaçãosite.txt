@@ -1,0 +1,389 @@
+{
+    "title": "Recording 13/07/2025 at 20:10:52",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1157,
+            "height": 972,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:3000/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:3000/",
+                    "title": "WhatsApp API Portal"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aside > div span"
+                ],
+                [
+                    "xpath///*[@id=\"new-instance-btn\"]/span"
+                ],
+                [
+                    "pierce/aside > div span"
+                ],
+                [
+                    "text/new_instance"
+                ]
+            ],
+            "offsetY": 10.933326721191406,
+            "offsetX": 67.63333129882812
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aside div:nth-of-type(1) > span"
+                ],
+                [
+                    "xpath///*[@id=\"sidebar\"]/nav/div/div[1]/span"
+                ],
+                [
+                    "pierce/aside div:nth-of-type(1) > span"
+                ],
+                [
+                    "text/dashboard"
+                ]
+            ],
+            "offsetY": 5.8666534423828125,
+            "offsetX": 31.99999237060547
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > span"
+                ],
+                [
+                    "xpath///*[@id=\"sidebar\"]/nav/div/div[2]/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > span"
+                ],
+                [
+                    "text/connection"
+                ]
+            ],
+            "offsetY": 11.666656494140625,
+            "offsetX": 19.99999237060547
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > span"
+                ],
+                [
+                    "xpath///*[@id=\"sidebar\"]/nav/div/div[3]/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > span"
+                ],
+                [
+                    "text/webhooks"
+                ]
+            ],
+            "offsetY": 15.466659545898438,
+            "offsetX": 38.19999694824219
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > span"
+                ],
+                [
+                    "xpath///*[@id=\"sidebar\"]/nav/div/div[4]/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(4) > span"
+                ],
+                [
+                    "text/settings"
+                ]
+            ],
+            "offsetY": 1.26666259765625,
+            "offsetX": 40.99999237060547
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(5) > span"
+                ],
+                [
+                    "xpath///*[@id=\"sidebar\"]/nav/div/div[5]/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) > span"
+                ],
+                [
+                    "text/gpt_integration"
+                ]
+            ],
+            "offsetY": 10.066650390625,
+            "offsetX": 43.99999237060547
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(6) > span"
+                ],
+                [
+                    "xpath///*[@id=\"sidebar\"]/nav/div/div[6]/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(6) > span"
+                ],
+                [
+                    "text/billing"
+                ]
+            ],
+            "offsetY": 2.86663818359375,
+            "offsetX": 8.999992370605469
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(7) > span"
+                ],
+                [
+                    "xpath///*[@id=\"sidebar\"]/nav/div/div[7]/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(7) > span"
+                ],
+                [
+                    "text/documentation"
+                ]
+            ],
+            "offsetY": 2.666656494140625,
+            "offsetX": 8.999992370605469
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(8)"
+                ],
+                [
+                    "xpath///*[@id=\"sidebar\"]/nav/div/div[8]"
+                ],
+                [
+                    "pierce/div:nth-of-type(8)"
+                ]
+            ],
+            "offsetY": 3.466644287109375,
+            "offsetX": 55.999996185302734
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Página de Login"
+                ],
+                [
+                    "h1"
+                ],
+                [
+                    "xpath///*[@id=\"content\"]/h1"
+                ],
+                [
+                    "pierce/h1"
+                ],
+                [
+                    "text/Página de Login"
+                ]
+            ],
+            "offsetY": 17.99999237060547,
+            "offsetX": 15
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Logo"
+                ],
+                [
+                    "div:nth-of-type(1) > img"
+                ],
+                [
+                    "xpath///*[@id=\"navbar\"]/div/div[1]/img"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > img"
+                ]
+            ],
+            "offsetY": 40.99999952316284,
+            "offsetX": 12
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/EN English"
+                ],
+                [
+                    "div:nth-of-type(2) > div:nth-of-type(2) button:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"language-menu\"]/div/button[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > div:nth-of-type(2) button:nth-of-type(2)"
+                ]
+            ],
+            "offsetY": 29.133333683013916,
+            "offsetX": 104.0499267578125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/FR Français"
+                ],
+                [
+                    "button:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"language-menu\"]/div/button[3]"
+                ],
+                [
+                    "pierce/button:nth-of-type(3)"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 90.0499267578125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/ES Español"
+                ],
+                [
+                    "button:nth-of-type(4)"
+                ],
+                [
+                    "xpath///*[@id=\"language-menu\"]/div/button[4]"
+                ],
+                [
+                    "pierce/button:nth-of-type(4)"
+                ]
+            ],
+            "offsetY": 12.866661071777344,
+            "offsetX": 90.0499267578125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/ Perfil"
+                ],
+                [
+                    "#user-menu button:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"user-menu\"]/div/button[1]"
+                ],
+                [
+                    "pierce/#user-menu button:nth-of-type(1)"
+                ]
+            ],
+            "offsetY": 9.133333340287209,
+            "offsetX": 79.833251953125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/ Cerrar Sesión"
+                ],
+                [
+                    "div:nth-of-type(3) button:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"user-menu\"]/div/button[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) button:nth-of-type(2)"
+                ]
+            ],
+            "offsetY": 23,
+            "offsetX": 26.833251953125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:3000/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#navbar div:nth-of-type(1) > span"
+                ],
+                [
+                    "xpath///*[@id=\"navbar\"]/div/div[1]/span"
+                ],
+                [
+                    "pierce/#navbar div:nth-of-type(1) > span"
+                ],
+                [
+                    "text/My-WA-API"
+                ]
+            ],
+            "offsetY": 2.5999984741210938,
+            "offsetX": 34.49993896484375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#navbar > div > div:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"navbar\"]/div/div[1]"
+                ],
+                [
+                    "pierce/#navbar > div > div:nth-of-type(1)"
+                ]
+            ],
+            "offsetY": 22.999999523162842,
+            "offsetX": 645
+        }
+    ]
+}
