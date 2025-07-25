@@ -1,0 +1,329 @@
+{
+    "title": "Recording 21/07/2025 at 13:53:02",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1116,
+            "height": 729,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://api-wa.me/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://api-wa.me/",
+                    "title": "API WhatsApp Não Oficial – SDKs em PHP e JS, Documentação em Postman e Swagger"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/[role=\"banner\"]",
+                    "aria/[role=\"image\"]"
+                ],
+                [
+                    "#header svg"
+                ],
+                [
+                    "xpath///*[@id=\"header\"]/div/a[2]/svg"
+                ],
+                [
+                    "pierce/#header svg"
+                ]
+            ],
+            "offsetY": 8.5625,
+            "offsetX": 1.637451171875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://portal.api-wa.me/sign-in",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "https://accounts.google.com/gsi/button?type=standard&theme=outline&size=large&text=continue_with&shape=rectangular&logo_alignment=undefined&width=undefined&locale=undefined&click_listener=undefined&is_fedcm_supported=true&client_id=572278435427-2reqjd67pg2kcv0prlkse94pavsftgm0.apps.googleusercontent.com&iframe_id=gsi_792906_333887&cas=%2FuAu3IKMwR04Ycx50UQegrV95rJZHWQs2YVHTMFF%2Bjo",
+            "selectors": [
+                [
+                    "div.K4efff > div"
+                ],
+                [
+                    "xpath///*[@id=\"container\"]/div/div[2]/div[1]/div[2]/div"
+                ],
+                [
+                    "pierce/div.K4efff > div"
+                ]
+            ],
+            "offsetY": 4.19999885559082,
+            "offsetX": 67.20000076293945
+        },
+        {
+            "type": "click",
+            "target": "https://accounts.google.com/o/oauth2/v2/auth?as=RBlSiBIK0aUMJmY8PT9DgoV0qUFK8msLVZh8kitEZTE&client_id=572278435427-2reqjd67pg2kcv0prlkse94pavsftgm0.apps.googleusercontent.com&scope=openid%20email%20profile&response_type=id_token&gsiwebsdk=gis_attributes&redirect_uri=gis_transform&response_mode=form_post&origin=https%3A%2F%2Fportal.api-wa.me&display=popup&prompt=select_account&gis_params=ChhodHRwczovL3BvcnRhbC5hcGktd2EubWUSDWdpc190cmFuc2Zvcm0YByorUkJsU2lCSUswYVVNSm1ZOFBUOURnb1YwcVVGSzhtc0xWWmg4a2l0RVpURTJINTcyMjc4NDM1NDI3LTJyZXFqZDY3cGcya2N2MHBybGtzZTk0cGF2c2Z0Z20wLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tOAFCQDJmZGQzYzJmZjE2Y2JhMGNmOGJkNDlhOThlYjI5NTVhMjE3ZTY3OTg0YTFkOWRiZmZjZDg1OTZhMzY4ZjdjNGE",
+            "selectors": [
+                [
+                    "div.yAlK0b"
+                ],
+                [
+                    "xpath///*[@id=\"yDmH0d\"]/div[1]/div[1]/div[2]/div/div/div[2]/div/div/div[1]/form/span/section/div/div/div/div/ul/li[1]/div/div[1]/div/div[2]/div[2]"
+                ],
+                [
+                    "pierce/div.yAlK0b"
+                ],
+                [
+                    "text/hiltonsf@gmail.com"
+                ]
+            ],
+            "offsetY": 3,
+            "offsetX": 80
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "header path:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"root__layout\"]/div[2]/header/div[2]/div/button/svg/path[3]"
+                ],
+                [
+                    "pierce/header path:nth-of-type(3)"
+                ]
+            ],
+            "offsetY": 2,
+            "offsetX": 6.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/New instance"
+                ],
+                [
+                    "div.MuiDrawer-root div.css-gevvns > button"
+                ],
+                [
+                    "xpath//html/body/div[4]/div[3]/div[1]/button"
+                ],
+                [
+                    "pierce/div.MuiDrawer-root div.css-gevvns > button"
+                ]
+            ],
+            "offsetY": 24,
+            "offsetX": 81
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "main > div > div > div:nth-of-type(1) button"
+                ],
+                [
+                    "xpath///*[@id=\"root__layout\"]/div[2]/main/div/div/div[1]/div/div[18]/button"
+                ],
+                [
+                    "pierce/main > div > div > div:nth-of-type(1) button"
+                ]
+            ],
+            "offsetY": 25.45001220703125,
+            "offsetX": 72
+        },
+        {
+            "type": "navigate",
+            "url": "https://portal.api-wa.me/plans",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://portal.api-wa.me/plans",
+                    "title": "api-wa.me"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "https://portal.api-wa.me/dashboard",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://portal.api-wa.me/dashboard",
+                    "title": "Dashboard"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.layout__has__sidebar button > svg"
+                ],
+                [
+                    "xpath///*[@id=\"root__layout\"]/div[2]/header/div[2]/div/button/svg"
+                ],
+                [
+                    "pierce/div.layout__has__sidebar button > svg"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 10
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/WhatsApp WhatsApp",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "div.MuiDrawer-root button > div"
+                ],
+                [
+                    "xpath//html/body/div[4]/div[3]/button/div"
+                ],
+                [
+                    "pierce/div.MuiDrawer-root button > div"
+                ]
+            ],
+            "offsetY": 13.400001525878906,
+            "offsetX": 47
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.MuiPopover-root span.css-i9gxme"
+                ],
+                [
+                    "xpath//html/body/div[5]/div[3]/ul/li/span[1]"
+                ],
+                [
+                    "pierce/div.MuiPopover-root span.css-i9gxme"
+                ]
+            ],
+            "offsetY": 7,
+            "offsetX": 40
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.MuiDrawer-root li:nth-of-type(2) span.css-i9gxme"
+                ],
+                [
+                    "xpath//html/body/div[4]/div[3]/div[2]/div[1]/div[2]/div/div/div/nav/ul/li[2]/a/span[2]"
+                ],
+                [
+                    "pierce/div.MuiDrawer-root li:nth-of-type(2) span.css-i9gxme"
+                ]
+            ],
+            "offsetY": 4.399993896484375,
+            "offsetX": 41
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Log in with your phone number"
+                ],
+                [
+                    "div.css-1udetos button"
+                ],
+                [
+                    "xpath///*[@id=\"root__layout\"]/div[2]/main/div/div/div[2]/div/div/div[1]/div/button"
+                ],
+                [
+                    "pierce/div.css-1udetos button"
+                ],
+                [
+                    "text/Log in with your"
+                ]
+            ],
+            "offsetY": 16,
+            "offsetX": 176
+        },
+        {
+            "type": "navigate",
+            "url": "https://portal.api-wa.me/dashboard",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://portal.api-wa.me/dashboard",
+                    "title": "Dashboard"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.layout__has__sidebar button > svg"
+                ],
+                [
+                    "xpath///*[@id=\"root__layout\"]/div[2]/header/div[2]/div/button/svg"
+                ],
+                [
+                    "pierce/div.layout__has__sidebar button > svg"
+                ]
+            ],
+            "offsetY": 13,
+            "offsetX": 5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.MuiDrawer-root li:nth-of-type(2) span.css-i9gxme"
+                ],
+                [
+                    "xpath//html/body/div[4]/div[3]/div[2]/div[1]/div[2]/div/div/div/nav/ul/li[2]/a/span[2]"
+                ],
+                [
+                    "pierce/div.MuiDrawer-root li:nth-of-type(2) span.css-i9gxme"
+                ]
+            ],
+            "offsetY": 2.399993896484375,
+            "offsetX": 37
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Generate QR Code"
+                ],
+                [
+                    "div.css-1mvkftr button"
+                ],
+                [
+                    "xpath///*[@id=\"root__layout\"]/div[2]/main/div/div/div[2]/div/div/div[2]/div/button"
+                ],
+                [
+                    "pierce/div.css-1mvkftr button"
+                ],
+                [
+                    "text/Generate QR Code"
+                ]
+            ],
+            "offsetY": 4.8000030517578125,
+            "offsetX": 107.51251220703125
+        }
+    ]
+}

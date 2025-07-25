@@ -1,0 +1,90 @@
+// Adiciona depois das outras funções no whatsappManager.ts
+
+function startHealthCheck(id: string) {
+  const instance = instances[id];
+  if (!instance) return;
+
+  // Limpa intervalo anterior se existir
+  if (instance.healthCheckInterval) {
+    clearInterval(instance.healthCheckInterval);
+  }
+
+  instance.healthCheckInterval = setInterval(async () => {
+    try {
+      if (instance.status === 'connected') {
+        // Verifica se o cliente ainda está realmente conectado
+        const state = await instance.client.getState();
+        if (!state || state === 'DISCONNECTED') {
+          logger.warn(`[WA] Healthcheck detectou desconexão para instância ${id}`);
+          instance.status = 'disconnected';
+          updateConnectionState(id, {
+            status: 'disconnected',
+            lastError: 'Desconexão detectada por healthcheck'
+          });
+          
+          // Força reconexão
+          try {
+            await instance.client.initialize();
+          } catch (error) {
+            logger.error(`[WA] Erro ao reconectar após healthcheck para instância ${id}:`, error);
+          }
+        }
+      }
+    } catch (error) {
+      logger.error(`[WA] Erro no healthcheck para instância ${id}:`, error);
+    }
+  }, HEALTH_CHECK_INTERVAL);
+}
+
+// Função para limpar timeouts e intervalos ao deletar/desconectar instância
+function clearInstanceTimers(instance: Instance) {
+  if (instance.reconnectTimeout) {
+    clearTimeout(instance.reconnectTimeout);
+    instance.reconnectTimeout = undefined;
+  }
+  if (instance.qrTimeout) {
+    clearTimeout(instance.qrTimeout);
+    instance.qrTimeout = undefined;
+  }
+  if (instance.healthCheckInterval) {
+    clearInterval(instance.healthCheckInterval);
+    instance.healthCheckInterval = undefined;
+  }
+}
+
+// Função para obter estado detalhado da conexão
+export function getInstanceState(id: string): ConnectionState | null {
+  return connectionStates.get(id) || null;
+}
+
+// Sobrescrever a função deleteInstance existente
+export async function deleteInstance(id: string) {
+  const instance = instances[id];
+  if (instance) {
+    clearInstanceTimers(instance);
+    if (instance.client) await instance.client.destroy();
+    if (instance.messagesQueue) await instance.messagesQueue.close();
+    connectionStates.delete(id);
+    delete instances[id];
+    saveInstances();
+    return true;
+  }
+  return false;
+}
+
+// Sobrescrever a função disconnectInstance existente
+export async function disconnectInstance(id: string) {
+  const instance = instances[id];
+  if (instance && instance.client) {
+    clearInstanceTimers(instance);
+    await instance.client.logout();
+    instance.status = 'disconnected';
+    updateConnectionState(id, {
+      status: 'disconnected',
+      lastError: 'Desconexão manual'
+    });
+    saveInstances();
+    return true;
+  }
+  return false;
+}

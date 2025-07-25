@@ -1,0 +1,87 @@
+C:\Projetos\wa-api\frontend-nextjs\src\app\login\page.tsx:44  POST http://localhost:3000/api/auth/signin/google 500 (Internal Server Error)
+_callee6$ @ index.js:252
+eval @ regeneratorRuntime.js:52
+eval @ regenerator.js:52
+eval @ regeneratorDefine.js:17
+asyncGeneratorStep @ asyncToGenerator.js:3
+_next @ asyncToGenerator.js:17
+Promise.then
+asyncGeneratorStep @ asyncToGenerator.js:8
+_next @ asyncToGenerator.js:17
+Promise.then
+asyncGeneratorStep @ asyncToGenerator.js:8
+_next @ asyncToGenerator.js:17
+eval @ asyncToGenerator.js:22
+eval @ asyncToGenerator.js:14
+_signIn @ index.js:290
+signIn @ index.js:190
+handleGoogleSignIn @ C:\Projetos\wa-api\frontend-nextjs\src\app\login\page.tsx:44
+executeDispatch @ react-dom-client.development.js:16922
+runWithFiberInDEV @ react-dom-client.development.js:873
+processDispatchQueue @ react-dom-client.development.js:16972
+eval @ react-dom-client.development.js:17573
+batchedUpdates$1 @ react-dom-client.development.js:3313
+dispatchEventForPluginEventSystem @ react-dom-client.development.js:17126
+dispatchEvent @ react-dom-client.development.js:21309
+dispatchDiscreteEvent @ react-dom-client.development.js:21277
+<button>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:345
+LoginPage @ C:\Projetos\wa-api\frontend-nextjs\src\app\login\page.tsx:94
+react_stack_bottom_frame @ react-dom-client.development.js:23553
+renderWithHooksAgain @ react-dom-client.development.js:6864
+renderWithHooks @ react-dom-client.development.js:6776
+updateFunctionComponent @ react-dom-client.development.js:9070
+beginWork @ react-dom-client.development.js:10680
+runWithFiberInDEV @ react-dom-client.development.js:873
+performUnitOfWork @ react-dom-client.development.js:15678
+workLoopConcurrentByScheduler @ react-dom-client.development.js:15672
+renderRootConcurrent @ react-dom-client.development.js:15647
+performWorkOnRoot @ react-dom-client.development.js:14941
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:16767
+performWorkUntilDeadline @ scheduler.development.js:45
+<LoginPage>
+exports.jsx @ react-jsx-runtime.development.js:338
+ClientPageRoot @ client-page.js:20
+react_stack_bottom_frame @ react-dom-client.development.js:23553
+renderWithHooksAgain @ react-dom-client.development.js:6864
+renderWithHooks @ react-dom-client.development.js:6776
+updateFunctionComponent @ react-dom-client.development.js:9070
+beginWork @ react-dom-client.development.js:10629
+runWithFiberInDEV @ react-dom-client.development.js:873
+performUnitOfWork @ react-dom-client.development.js:15678
+workLoopConcurrentByScheduler @ react-dom-client.development.js:15672
+renderRootConcurrent @ react-dom-client.development.js:15647
+performWorkOnRoot @ react-dom-client.development.js:14941
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:16767
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+initializeElement @ react-server-dom-webpack-client.browser.development.js:1206
+eval @ react-server-dom-webpack-client.browser.development.js:2830
+initializeModelChunk @ react-server-dom-webpack-client.browser.development.js:1109
+resolveModelChunk @ react-server-dom-webpack-client.browser.development.js:1084
+resolveModel @ react-server-dom-webpack-client.browser.development.js:1907
+processFullStringRow @ react-server-dom-webpack-client.browser.development.js:2664
+processFullBinaryRow @ react-server-dom-webpack-client.browser.development.js:2606
+processBinaryChunk @ react-server-dom-webpack-client.browser.development.js:2733
+progress @ react-server-dom-webpack-client.browser.development.js:2997
+"use server"
+ResponseInstance @ react-server-dom-webpack-client.browser.development.js:1870
+createResponseFromOptions @ react-server-dom-webpack-client.browser.development.js:2858
+exports.createFromReadableStream @ react-server-dom-webpack-client.browser.development.js:3228
+eval @ app-index.js:131
+(app-pages-browser)/./node_modules/next/dist/client/app-index.js @ main-app.js?v=1753151393398:149
+options.factory @ webpack.js:1
+__webpack_require__ @ webpack.js:1
+fn @ webpack.js:1
+eval @ app-next-dev.js:14
+eval @ app-bootstrap.js:62
+loadScriptsInSequence @ app-bootstrap.js:23
+appBootstrap @ app-bootstrap.js:56
+eval @ app-next-dev.js:13
+(app-pages-browser)/./node_modules/next/dist/client/app-next-dev.js @ main-app.js?v=1753151393398:171
+options.factory @ webpack.js:1
+__webpack_require__ @ webpack.js:1
+__webpack_exec__ @ main-app.js?v=1753151393398:1779
+(anonymous) @ main-app.js?v=1753151393398:1780
+webpackJsonpCallback @ webpack.js:1
+(anonymous) @ main-app.js?v=1753151393398:9
