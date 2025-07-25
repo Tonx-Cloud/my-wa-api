@@ -1,10 +1,11 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   env: {
     PORT: '3000'
   },
+  // Configurar explicitamente para usar src como diretório base
   experimental: {
+    appDir: true,
     serverActions: {
       allowedOrigins: ['localhost:3000']
     }
@@ -48,4 +49,4 @@ const nextConfig: NextConfig = {
   }
 };
 
-export default nextConfig;
+module.exports = nextConfig;
