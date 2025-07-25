@@ -1,0 +1,266 @@
+
+Skip to content
+Navigation Menu
+Search GitHub:
+https://api.githubcopilot.com/mcp
+code Search Results · https://api.githubcopilot.com/mcp
+Filter by
+Languages
+Repositories
+Paths
+Advanced
+598 files
+ (295 ms)
+598 files
+
+
+transitive-bullshit/agentic · examples/mcp-servers/github/agentic.config.ts
+TypeScript
+·
+main
+    url: 'https://api.githubcopilot.com/mcp/',
+
+
+MacPaw/OpenAI · README.md
+Markdown
+·
+main
+        serverLabel: "GitHub_MCP_Server",
+        serverUrl: "https://api.githubcopilot.com/mcp/",
+        headers: .init(additionalProperties: [
+let transport = HTTPClientTransport(
+    endpoint: URL(string: "https://api.githubcopilot.com/mcp/")!,
+    configuration: URLSessionConfiguration.default
+Show 1 more match
+
+
+VoltAgent/voltagent · website/docs/agents/mcp.md
+Markdown
+·
+main
+    // Example 1: Streamable HTTP transport (modern, efficient)
+    github: {
+      type: "streamable-http",
+      url: "https://api.githubcopilot.com/mcp",
+      // Optional: Request timeout in milliseconds (default: 30000)
+      timeout: 15000,
+    },
+
+
+ravitemer/mcphub.nvim · doc/index.md
+Markdown
+·
+main
+      ]
+    },
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
+
+
+isekOS/ISEK · examples/lv2_fastmcp_tool_agent.py
+Python
+·
+main
+        try:
+            # Use the pre-created fastmcp_tools instance
+            mcp_tools = FastMCPToolkit(
+                server_source="https://api.githubcopilot.com/mcp/",
+                name="github_fastmcp",
+                auth_token=github_token,
+                debug=True,
+
+
+fsprojects/FSharpLint · .mcp.json
+JSON
+·
+master
+  "servers": {
+    "GitHub": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${input:github_pat}"
+      }
+
+
+Kong/developer.konghq.com · app/_how-tos/govern-mcp-traffic.md
+Markdown
+·
+main
+          \"server_label\": \"gitmcp\",
+          \"server_url\": \"https://api.githubcopilot.com/mcp/x/repos\",
+          \"require_approval\": \"never\",
+      server_label: gitmcp
+      server_url: https://api.githubcopilot.com/mcp/x/issues
+      require_approval: never
+Show 6 more matches
+
+
+LibreChat-AI/librechat.ai · pages/docs/features/mcp.mdx
+MDX
+·
+main
+mcpServers:
+  github-mcp:
+    type: streamable-http
+    url: "https://api.githubcopilot.com/mcp/"
+    headers:
+      Authorization: "{{PAT_TOKEN}}"
+    customUserVars:
+
+
+rawkode/rawkode · rawkOS/claude/mod.ts
+TypeScript
+·
+main
+				"-t",
+				"http",
+				"github",
+				"https://api.githubcopilot.com/mcp/",
+			],
+		}),
+	]);
+
+
+FlowiseAI/FlowiseDocs · en/tutorials/tools-and-mcp.md
+Markdown
+·
+main
+```json
+{
+  "url": "https://api.githubcopilot.com/mcp/",
+  "headers": {
+    "Authorization": "Bearer {{$vars.githubPAT}}",
+  }
+
+
+kagent-dev/kagent · contrib/tools/github-mcp-server/values.yaml
+YAML
+·
+main
+# All tools are disabled by default and must be explicitly enabled.
+# -- Base URL for GitHub MCP Server API
+baseUrl: "https://api.githubcopilot.com/mcp"
+# -- GitHub API token for authentication
+# This creates a new secret during chart installation (not recommended for production)
+
+
+benmatselby/dotfiles · vscode/mcp.json
+JSON
+·
+main
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${input:github_mcp_pat}"
+      }
+
+
+labring/aiproxy · mcp-servers/hosted/github/README.cn.md
+Markdown
+·
+main
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+Show 2 more matches
+
+
+pathintegral-institute/mcpm.sh · mcp-registry/servers/github.json
+JSON
+·
+main
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "description": "Run github mcp directly with OAuth",
+      "recommended": true
+    },
+
+
+hideya/langchain-mcp-tools-ts · testfiles/simple-usage.ts
+TypeScript
+·
+main
+      // github: {
+      //   // To avoid auto protocol fallback, specify the protocol explicitly when using authentication
+      //   type: "http",  // or `transport: "http",`
+      //   url: "https://api.githubcopilot.com/mcp/",
+      //   headers: {
+      //     "Authorization": `Bearer ${process.env.GITHUB_PERSONAL_ACCESS_TOKEN}`
+      //   }
+
+
+aws/amazon-q-developer-cli · docs/draft/the-agent-format-2.md
+Markdown
+·
+main
+      }
+    },
+    "github-mcp": {
+      "url": "https://api.githubcopilot.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_TOKEN}"
+      }
+
+
+Eyalbenba/claude-code-mcp-init · src/mcp-setup/claude-mcp
+Shell
+·
+main
+configure_github_server() {
+    local scope="${1:-local}"
+    if [ "$GITHUB_MCP_TYPE" = "copilot" ]; then
+        if claude mcp add github "https://api.githubcopilot.com/mcp/" \
+            -s "$scope" \
+            -t http \
+            -H "Authorization: Bearer $GITHUB_PAT"; then
+
+
+jim60105/dotfiles · dot_codex/config.toml.tmpl
+·
+master
+##     "streamablehttp",
+##     "https://api.githubcopilot.com/mcp/"
+## ]
+##     "streamablehttp",
+##     "https://api.githubcopilot.com/mcp/"
+## ]
+
+
+chrishrb/nix-dots · modules/common/nvim/default.nix
+Nix
+·
+main
+            "command": "${pkgs.mcp-server-git}/bin/mcp-server-git"
+          },
+          "github": {
+            "url": "https://api.githubcopilot.com/mcp/",
+            "autoApprove": [],
+            "headers": {
+              "Authorization": "Bearer ''${GITHUB_TOKEN}"
+
+
+quantstruct/github-mcp-server · docs/remote-server.md
+Markdown
+·
+main
+**URL:** https://api.githubcopilot.com/mcp/
+…able GitHub MCP tools                    | https://api.githubcopilot.com/mcp/                    | [Install](https://i…
+…ctions workflows and CI/CD operations    | https://api.githubcopilot.com/mcp/x/actions           | [Install](https://i…
+…ated tools, such as GitHub Code Scanning | https://api.githubcopilot.com/mcp/x/code_security     | [Install](https://i…
+…ot tools                                 | https://api.githubcopilot.com/mcp/x/dependabot        | [Install](https://i…
+…iscussions related tools                 | https://api.githubcopilot.com/mcp/x/discussions       | [Install](https://i…
+…tures that are not considered stable yet | https://api.githubcopilot.com/mcp/x/experiments       | [Install](https://i…
+…ssues related tools                      | https://api.githubcopilot.com/mcp/x/issues            | [Install](https://i…
+Show 21 more matches
+FSharpLint/.mcp.json at 3924085a6af3ff87dcd7bc0658664501aa43e060 · fsprojects/FSharpLint 
